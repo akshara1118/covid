@@ -1,0 +1,123 @@
+
+body{
+  font-family: 'Piazzolla', serif;
+}
+.symphead
+{
+  text-align: center;
+  font-size: 3rem;
+  color:white;
+  padding-top:10px;
+  font-family: 'Acme', sans-serif;
+}
+footer{
+  background-color: black;
+  text-align: center;
+  color:grey
+
+}
+.head1
+{
+  background-color: #6d4fdc !important;
+  height: 50px !important;
+ color: white !important;
+  vertical-align: middle;
+  font-family: 'Acme', sans-serif;
+}
+.coloured
+{
+  background-color: black;
+  margin-bottom: 10px;
+  padding-bottom: 15px
+}
+.third
+{
+  background-color: #6d4fdc;
+  color: black;
+  vertical-align: middle;
+}
+.sym2
+{
+  background-color:#6d4fdc
+}
+li{
+  margin-bottom: 15px;
+  color:white
+}
+.boxed
+{
+border: 5px solid #6d4fdc;
+border-spacing: 2px;
+}
+.risk1
+{
+  text-align: center;
+  font-size: 3rem;
+   color:white;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   font-family: 'Acme', sans-serif;
+
+}
+.symptoms
+{
+  padding: 35px;
+  padding-top:25px;
+}
+.first
+{
+  padding: 30px;
+}
+.image
+{
+  padding: 10px
+}
+.col2
+{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-family: 'Acme', sans-serif;
+}
+.col3
+{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-family: 'Acme', sans-serif;
+}
+.image
+{
+height: 70%;
+}
+.last
+{
+  padding-top: 30px;
+  background-color: #6d4fdc;
+}
+.col1
+{
+  background-color: blue
+  padding-right:0px;
+}
+
+.riskimage
+{
+  padding-top: 90px;
+  vertical-align: middle;
+}
+.sym
+{
+  padding: 50px;
+  padding-left: 250px;
+   grid-column-gap: 10px;
+  font-size: 1.5rem;
+}
+.sec{
+  padding: 30px;
+}
+.whitesec
+{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-family: 'Acme', sans-serif;
+  background-color: black;
+}

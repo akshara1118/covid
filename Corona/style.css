@@ -1,0 +1,298 @@
+/*********************************************TAGS******************************************************************8*/
+
+body {
+    /*    font-family: 'Montserrat', sans-serif;*/
+    text-align: center;
+}
+
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+}
+h2 {
+    font-family: 'Kalam', cursive;
+    font-weight: 900
+}
+h4 {
+    font-size: 1.7rem;
+}
+p {
+    color: #8f8f8f;
+}
+
+/*HEADINGS*/
+
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    line-height: 1.3;
+}
+i {
+    color:whitesmoke;
+    font-size: 5rem;
+}
+
+.icon {
+    color:whitesmoke;
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color:#800080;
+    /*    font-size: 100px;*/
+}
+.feature-box {
+    padding: 3%;
+    text-align: center;
+}
+.container-fluid {
+    padding: 4% 8%;
+    padding-bottom: 10%;
+}
+.one
+{
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+.bl
+{
+    background-color: black;
+    padding: 30px 10px 30px 20px;
+    opacity: 0.85;
+    margin-left: 100px;
+    margin-top: 120px;
+    margin-bottom: 160px;
+}
+/*Download buttons*/
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/******************************************Navigation bar**********************************************************/
+
+.navbar {
+    padding-bottom:4px;
+    background-color: black;
+    opacity: 0.85;
+
+}
+.navbar-nav
+{
+    background-color: black;
+    padding: 100px 100px 0px 100px;
+    opacity: 0.85;
+}
+.nav-link
+{
+    font-weight: 600;
+    color:white;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+}
+.navbar-brand {
+    font-family: 'Acme', sans-serif;
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+/********************************************************Title_ ***************************************************/
+
+#title {
+  /* background-image: linear-gradient(to bottom right,black, white); */
+  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQK--Iu37sR-ABpxx2BtXxt0JqCFzNUgYx-xA&usqp=CAU"); */
+  background-size: cover;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQXqHiOIqWWALLh7zJQFI2Wy7uOxronzj9HqA&usqp=CAU");
+    color: #fff;
+    position: relative;
+    text-align: left;
+}
+iframe
+{
+    border-radius: 10%;
+    border: 5px solid white;
+}
+/**********************************************FEATURES*****************************************************************/
+
+#features {
+    padding: 7% 20%;
+    text-align: center;
+    background-color: white;
+    position: relative;
+}
+
+/***************************************************TESTIMONIAL SECTION****************************************/
+
+#testimonials {
+    background-color: #6D4FDC;
+    color: #fff;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item {
+    padding: 7% 10%;
+}
+.testimonial-text {
+    font-size: 2rem;
+}
+
+/***************************************************Press****************************************/
+
+#press {
+    background-color: #6D4FDC;
+    padding-bottom: 3%;
+}
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/***************************************************Pricing****************************************/
+
+#pricing {
+    padding: 100px;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+.dog-image {
+    width: 90px;
+    ;
+    border-radius: 100%;
+    height: 70px;
+}
+.tp {
+    height: 100px;
+    width: 100px;
+    border: solid;
+}
+.price-text {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+/***************************************************Media query****************************************/
+
+@media (max-width:1028px) {
+    .title_image {
+        position: static;
+        transform: rotate(0deg);
+    }
+    #title {
+        text-align: center;
+    }
+}
+
+/***************************************************Call to action****************************************/
+
+#cta {
+    background-color: #6D4FDC;
+    padding: 3% 15%;
+}
+#cta1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.7rem;
+    line-height: 1.5;
+    color: #fff;
+}
+button {
+    padding: 20px;
+}
+
+/*footer*/
+
+#footer {
+    padding: 2% 8%;
+    color: black;
+    /*    font-weight: 100;*/
+    /* background-image: linear-gradient(to bottom right,black, white); */
+    background-color: black;
+}
+#cta2 {
+    position: relative;
+/*    bottom: 10%*/
+/*    margin:  2% 10%;*/
+
+}
+
+.counter {
+    font-size: 20px;
+    margin: 10px;
+    font-weight: 500;
+    color: whitesmoke;
+
+}
+.earth {
+    position: absolute;
+    /*    padding-bottom: 50px;*/
+    bottom: 2%;
+    height: 150%;
+    width: 80%;
+    /*    top: 5%;*/
+}
+.corona {
+    padding-top: 30px;
+    padding-bottom: 0;
+    position: absolute;
+    position: absolute;
+    left: 30%;
+    width: 60%;
+    /*    transform: rotate(25deg);*/
+    top: 10px;
+}
+#Current {
+    padding-top: 5%;
+    /* background-color: #00cccc;    */
+     background-image: linear-gradient(to bottom right,#fa7f72, black);
+
+
+}
+.content
+{
+    padding: 60px 0px;
+    border: 2px solid black;
+   margin-bottom: 30px;
+   border-radius: 10%;
+   color: black;
+}
+.footer-text{
+    color:whitesmoke;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: yellow
+}
+#Covid{
+    padding:  4%;
+
+}
+#bg{
+    font-family: 'PT Serif', serif;
+    /* background-image: linear-gradient(to bottom right,black, white); */
+    background-color: black;
+    padding: 2% ;
+    padding: 40px 0px;
+    color: #fff;
+}
+#Covid
+{
+   /* background-image: linear-gradient(to bottom right,black, white);   */
+   background-color: black;
+}
+.ft
+{
+    color: white;
+    font-size: 50px;
+    font-family: "Krona One";
+}

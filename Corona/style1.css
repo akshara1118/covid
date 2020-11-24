@@ -1,0 +1,293 @@
+body
+{
+    text-align: center;
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+  .navbar
+  {
+      background-color: black;
+      color: whitesmoke;
+
+  }
+  .nav-link
+  {
+      color: whitesmoke;
+      margin: 10px 30px 10px 30px;
+  }
+.paral
+{
+    background-image: url("https://specials-images.forbesimg.com/imageserve/1211119516/960x0.jpg?fit=scale");
+    /* background-image: linear-gradient(to bottom right,#0055ff, black);
+   */
+
+height: 140%;
+position: relative;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.paral1
+{
+    background-image: url("https://specials-images.forbesimg.com/imageserve/1211119516/960x0.jpg?fit=scale");
+    /* background-image: linear-gradient(to bottom right,#0055ff, black); */
+
+height: 100%;
+position: relative;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.paral3
+{
+    background-image: url("https://specials-images.forbesimg.com/imageserve/1211119516/960x0.jpg?fit=scale");
+    /* background-image: linear-gradient(to bottom right,#0055ff, black); */
+
+height: 35%;
+position: relative;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.paral2
+{
+    background-image: url("https://specials-images.forbesimg.com/imageserve/1211119516/960x0.jpg?fit=scale");
+    /* background-image: linear-gradient(to bottom right,black, #0055ff); */
+
+height: 10%;
+position: relative;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.caption
+{
+    color:white;
+    border-radius: 60%;
+
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    right: 18%;
+    display: inline-block;
+    letter-spacing: 10px;
+    background-color: black;
+   padding: 110px 105px 15px 105px;
+    opacity: 0.85;
+}
+.head1
+{
+    font-family: 'Acme', sans-serif;
+    font-size: 80px;
+    font-weight: 900;
+}
+.head3
+{
+    font-family:"Tangerine";
+    font-size: 80px;
+
+}
+.img1
+{
+    height: 200px;
+    width: 270px;
+    border-radius: 100%;
+}
+.together
+{
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    border: 5px solid white;
+    border-radius: 20%;
+
+}
+.pur
+{
+    background-image: linear-gradient(to bottom right,black, white);
+    padding: 10px 0px 10px 0px;
+}
+.tog{
+    height: 400px;
+    width: 400px;
+    border-radius: 20%;
+    margin-left: 40px;
+    border: 3px dashed whitesmoke;
+
+}
+.tog:hover
+{
+    transform: scale(1.2);
+}
+.p1
+{
+    color: turquoise;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Acme', sans-serif;
+}
+.p2
+{
+    color: red;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+
+}
+.get1
+{
+    text-align: center;
+}
+.p3
+{
+    color: turquoise;
+    text-shadow: 2px 4px 4px white ;
+    font-family: 'Acme', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+.p4
+{
+    margin-top: 20px;
+    color: whitesmoke;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+}
+.cp
+{
+
+    background-color: black;
+    /* background-image: linear-gradient(to bottom right,#0055ff, black); */
+    padding: 40px 50px 40px 50px;
+    text-align: center;
+    border: 3px solid white;
+
+
+}
+.cp2
+{
+
+
+    /* background-image: linear-gradient(to bottom right,black, #0055ff); */
+    background-color: black;
+    padding: 50px 250px 20px 250px;
+    border: 3px solid white;
+
+    text-align: center;
+
+}
+.imgp1
+{
+    height: 300px;
+    width: 300px;
+    border: 3px dashed black;
+
+
+}
+.card
+{
+    border: 5px solid black;
+    text-align: center;
+    background-color: cornsilk;
+}
+
+.preimg1
+{
+    color: black;
+    font-family: 'Acme', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px black ;
+}
+.tell1
+{
+    color: white;
+    text-shadow: 2px 3px 3px black ;
+    font-family: 'Acme', sans-serif;
+    margin-bottom: 50px;
+}
+.box:hover
+{
+    transform: scale(1.1);
+}
+footer
+{
+    background-color: black;
+    color: white;
+    padding: 40px 0px 40px 0px;
+}
+.caption2
+{
+    color:white;
+
+    text-align: center;
+    position: absolute;
+    top: 72%;
+    right: 33%;
+    display: inline-block;
+    letter-spacing: 10px;
+    background-color: black;
+   padding: 40px;
+    opacity: 0.85;
+}
+
+
+.fotpara
+{
+    font-size: 15px;
+    font-family: "Krona One";
+
+}
+
+.health
+{
+    background-image: linear-gradient(to bottom right,black, #cc9966);
+    color: whitesmoke;
+    border:3px solid black;
+
+
+
+
+
+}
+.health:hover
+{
+
+    animation: shake 3s;
+    animation-iteration-count: infinite;
+
+}
+.healthdiv
+{
+    /* background-image: linear-gradient(to bottom right,#0055ff, black); */
+    padding: 50px 0px 50px 0px;
+}
+.healthhead
+{
+    font-size: 21px;
+    font-family: 'Acme', sans-serif;
+}
+.healthp
+{
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Acme', sans-serif;
+}
